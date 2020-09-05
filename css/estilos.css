@@ -1,20 +1,25 @@
 body{
   font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main{
   width:80%;
   margin:20px auto;
   border:1px solid blue;
   padding:20px;
-  background-color: deeppink;
+  background-color: rgb(141, 147, 228);
 }
 h2{
   margin-top:0px;
-  color: chocolate;
+  color:#4b4a4a;
+}
+h3{
+  color: #4b4a4a;
+  font-style: normal;
 }
 .encabezado{
   background-color: blueviolet;
-  color: white;
+  color: #e1e1e1;
   padding:20px;
   margin-bottom: 20px;
   font-size: 30px;
@@ -38,15 +43,15 @@ ul{
   display: flex;
 }
 a{
-  padding-right: 20px;
-}
-h3{
-  color: crimson;
+  padding-right: 30px;
+  color: #e1e1e1;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
 }
 
 footer{
-
-	color:white;
+	color: #e1e1e1;
 	padding:10px;
 	background-color:#393939;
 	font-style:normal;
